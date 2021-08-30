@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: Arial;
+   /* overflow: hidden;*/
+}
+
+main {
+    margin-bottom: 158px; 
+    padding-right: 10px;
+}
+
+body{
+    background: rgb(255,255,255)
+}
+
+nav {
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    
+}
+
+header {
+    text-align: center;
+    font-size: 28.8px;
+    font-weight: 400;
+    line-height: 43.2px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    vertical-align: baseline;
+}
+
+section {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    padding-left: 28px;
+    padding-top: 12.5px;
+    padding-bottom: 0px; 
+    margin-bottom: -12.5px; 
+}
+
+h1 {
+    font-size: 28.8px; 
+    line-height: 43.2px; 
+    font-weight: 400;
+}
+
+article {
+    font-size: 15.36px; 
+    line-height: 23.04px;
+    margin: 15px; 
+    font-weight: 400;   
+}
+
+p {
+    font-size: 15.36px; 
+    line-height: 23.04px;
+    margin: 15.36px 0px; 
+}
+
+/*<-----------NAV BAR------------>*/
+
+.nav-ul {
+    list-style: none;
+    height: 210px;
+    overflow-y: scroll;
+    
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    /*sborder-bottom: 3px solid black;
+    border-left: 2.5px solid black;*/  
+}
+
+.nav-ul li {
+    
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left; 
+    padding: 10px 30px;
+    border-bottom: 1px solid black ;   
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.li-top {
+    border-top: 1px solid black;
+}
+
+/*<-----------INTRODUCTION------------>*/
+
+.ul-introduction {
+    font-size: 15.36px;
+    line-height: 23.04px; 
+    margin: 15.36px 0px; 
+    padding: 0px 0px 0px 40px;
+    font-weight: 400; 
+    
+}
+
+.ul-introduction li {
+    margin: 15px 0px 0px 20px; 
+    font-size: 15.36px; 
+    line-height: 23.06px;
+    font-weight: 400; 
+    list-style-type: disc; 
+}
+
+/*<-----------What you should already know------------>*/
+
+.section-whatyoushouldalreadyknow {
+    font-size: 16px; 
+    line-height: 24px;
+    font-weight: 400; 
+}
+
+.article-whatyoushouldalreadyknow {
+    font-size: 15.36px; 
+    line-height: 23.04px;
+    margin: 15px;
+    margin-right: 20px; 
+    font-weight: 400;    
+}
+
+.ul-whatyoushouldalreadyknow {
+    font-size: 15.36px;
+    line-height: 23.06px; 
+    margin: 15.36px 0px; 
+}
+
+.ul-whatyoushouldalreadyknow li {
+    font-size: 15.36px; 
+    line-height: 23.04px;
+    margin: 15px 0px 0px 60px; 
+    list-style-type: disc;
+}
+
+/*<-----------JAVA AND JAVASCRIPT------------>*/
+
+.section-JavaScriptandJava {
+    font-size: 16px; 
+    line-height: 24px; 
+    font-weight: 400; 
+}
+
+.article-JavascriptandJava {
+    margin-right: 16px;
+    padding-right: 10px; 
+}
+
+/*<-----------Hello World------------>*/
+
+.code {
+    color: rgb(77,78,83);
+    background-color: rgb(247,247,247);
+    border-radius: 5px;  
+    font-family: monospace;
+    font-size: 12.48px;
+    line-height: 24.96px;
+    margin: 10px; 
+    padding: 15px; 
+    font-weight: 400; 
+}
+
+/*<-----------Variables------------>*/
+.paragraph-variables {
+    font-size: 16px; 
+    line-height: 24px; 
+    font-weight: 400; 
+    margin: 16px 0px;
+}
+
+/*<-----------Declaring Variables------------>*/
+
+
+/*<-----------Variable Scope------------>*/
+
+
+/*<-----------Global Variables------------>*/
+
+
+/*<-----------Constants------------>*/
+
+
+/*<-----------Data Types------------>*/
+
+.ul-dataTypes {
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15.36px 0px; 
+    padding: 0px 0px 0px 40px; 
+    font-weight: 400; 
+}
+
+.ul-dataTypes li {
+    list-style-type: disc;
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15px 0px 0px 20px;
+    font-weight: 400;
+}
+
+.ul-dataTypes2 {
+    font-size: 15.36px; 
+    line-height: 23.04px;
+    margin: 0px; 
+    padding: 0px 0px 0px 45px; 
+    font-weight: 400;
+}
+
+.ul-dataTypes2 li {
+    list-style-type: circle;
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15px 0px 0px 35px;
+    font-weight: 400;
+}
+
+/*<-----------if...else statement------------>*/
+
+
+
+/*<-----------while statement------------>*/
+
+.ul-whileStatement {
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15.36px 0px; 
+    padding: 0px 0px 0px 40px; 
+    font-weight: 400; 
+}
+
+.ul-whileStatement li {
+    list-style-type: disc;
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15px 0px 0px 20px; 
+}
+
+/*<-----------Function declarations------------>*/
+
+
+
+
+
+/*<-----------Reference------------>*/
+
+.ul-reference {
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15.36px 0px; 
+    padding: 0px 0px 0px 55px; 
+    font-weight: 400; 
+}
+
+.ul-reference li {
+    list-style-type: disc;
+    font-size: 15.36px; 
+    line-height: 23.04px; 
+    margin: 15px 0px 0px 20px; 
+}
+
+
+/*<-----------DESKTOP VERSION------------>*/
+
+
+@media (min-width: 815px) {
+
+    main {
+        font-size: 16px; 
+        line-height: 24px; 
+        margin: 0px 0px 25px 285px;
+        padding: 10px; 
+    }
+
+    nav {
+        position: fixed;
+        width: 300px;
+        border-right: 3.5px solid gray;
+        height: 100vh;
+        
+    }
+    
+    header {
+        font-size: 28.8px;
+        line-height: 43.2px;
+        padding: 10px;
+        padding-bottom: 12.5px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .nav-ul {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 2.5px 0px;
+        font-weight: 400;
+        text-align: start;
+        height: 90vh;
+        overflow-y:auto;
+    }
+    
+    .navb-ul li {
+        line-height: 24.99px;
+        font-size: 16px; 
+        padding: 10px 30px; 
+        text-align: left;
+        
+        border-top: 1px solid black;
+    }
+    
+}
+
+
